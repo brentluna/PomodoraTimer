@@ -11,14 +11,15 @@ import {
   Text,
   View
 } from 'react-native';
+import Clock from './lib/clock.js';
+
 
 export default class PomodoraTimer extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>
-        Main Container
-        </Text>
+        
+          <Clock /> 
       </View>
     );
   }
